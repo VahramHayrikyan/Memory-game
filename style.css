@@ -1,0 +1,107 @@
+*{
+	margin: 0 auto;
+}
+
+body{
+    background: linear-gradient(160deg, #cacaca 0%, #aa7ecd 100%);
+
+}
+
+.container{
+    width: 668px !important;
+    min-height: 650px;
+	margin-top: 30px; 
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+    border: 10px solid;
+    border-radius: 8px;
+    border-color: lightblue;
+}
+
+.cube{
+	display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    
+}
+
+.ranDiv{
+    width: 150px;
+    height: 150px;
+    /*line-height: 150px;*/
+    /*display: inline-block;*/
+    background: lightblue;
+    margin: 2px;
+    /*text-align: center;*/
+    cursor: pointer;
+	border-radius: 8px;    
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    font-size: 0px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.ranDivv{
+    width: 150px;
+    height: 150px;
+    /*line-height: 150px;*/
+    /*display: inline-block;*/
+    background: lightblue;
+    margin: 2px;
+    /*text-align: center;*/
+    cursor: pointer;
+	border-radius: 8px;    
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    font-size: 0px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.open{
+	background: none;
+	font-size: 35px;
+	cursor: default;
+}
+
+.same{
+	background: none;
+	font-size: 35px;
+	cursor: default;
+}
+
+
+
+.game-info{
+	/*display: inline-block !important;*/
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset{
+	margin-left: 30px;
+	background: cadetblue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.stars{
+	/*display: inline-block;*/
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	list-style: none;
+	padding-top: 11px;
+}
+
+.stars li{
+	display: inline-block;
+}
