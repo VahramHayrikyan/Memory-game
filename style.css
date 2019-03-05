@@ -105,3 +105,7 @@ body{
 .stars li{
 	display: inline-block;
 }
+
+.justedited{
+    display: block;
+}
