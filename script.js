@@ -7,6 +7,7 @@
     moves = 0;
     let sameNum = 0;
 
+    //toDo need some optimisation
     let starNoob = 40;
     let starMiddle = 34;
     let starPro = 26;
